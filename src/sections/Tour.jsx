@@ -3,7 +3,7 @@ import GaleriSlider from "../components/GaleriSlider";
 
 const Tour = () => {
   return (
-    <section id="tour" className="px-6 md:px-16 py-15 ">
+    <section id="tur" className="px-6 md:px-16 py-15 ">
       <div className="flex flex-col items-center max-w-[1140px] mx-auto">
         <h2 className="text-2xl text-gold-500 text-center">TUR</h2>
 

@@ -5,7 +5,7 @@ import { SOSMED } from "../assets";
 const Footer = () => {
   return (
     <>
-      <footer id="kontak" className="bg-black pt-10 pb-4 px-6 md:px-16 mt-15">
+      <footer className="bg-black pt-10 pb-4 px-6 md:px-16 mt-15">
         <div className=" flex flex-col items-center md:flex-row gap-10 max-w-[1140px] mx-auto">
           <div className="flex-1 flex items-center gap-4">
             <img src={logo} alt="" className="w-15" />

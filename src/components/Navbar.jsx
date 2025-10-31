@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 import { FiMenu } from "react-icons/fi";
 import { IoClose } from "react-icons/io5";
 
-const sections = ["beranda", "unggulan", "sekolah", "tur", "galeri", "kontak"];
+const sections = ["beranda", "unggulan", "sekolah", "tur", "galeri"];
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

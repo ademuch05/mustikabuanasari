@@ -5,7 +5,7 @@ const Unggulan = () => {
   return (
     <section id="unggulan" className="px-6 md:px-16 py-15 ">
       <div className="flex flex-col items-center max-w-[1140px] mx-auto">
-        <h2 className="text-xl text-center">UNGGULAN</h2>
+        <h2 className="text-xl lg:text-2xl text-center text-gold-500 font-bold">UNGGULAN</h2>
 
         <GaleriSlider data={UNGGULAN} className={"mt-10"} />
       </div>

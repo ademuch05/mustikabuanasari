@@ -5,11 +5,11 @@ const Galeri = () => {
   return (
     <section id="galeri" className="px-6 md:px-16 py-15">
       <div className="mx-auto max-w-[1140px]">
-        <h2 className="text-center text-xl">GALERI</h2>
+        <h2 className="text-center  text-xl lg:text-2xl text-gold-500">GALERI</h2>
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3  ">
           {PAGINGGALERI.map((data, index) => (
-            <div className="rounded-xl overflow-hidden" key={index}>
-              <img src={data.photo} alt="" className="aspect-3/2 object-cover rounded-xl hover:scale-110 transition-discrete duration-500" />
+            <div className="rounded-xl overflow-hidden group transition-discrete duration-500 hover:scale-105 border-2 border-gold-600 cursor-pointer" key={index}>
+              <img src={data.photo} alt="" className="aspect-3/2 object-cover group-hover:scale-110 transition-discrete duration-500" />
             </div>
           ))}
         </div>

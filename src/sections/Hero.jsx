@@ -1,6 +1,6 @@
 import logo from "../assets/logo.png";
-import border from "../assets/landing/border.png";
-import hero from "../assets/landing/hero.png";
+import border from "../assets/landing/border.svg";
+import hero from "../assets/landing/hero.svg";
 
 import { SOSMED } from "../assets/index";
 import SosmedSide from "../components/SosmedSide";
@@ -20,12 +20,12 @@ const Hero = () => {
             <img src={logo} alt="" className="w-24 lg:w-[180px]" />
             <h1 className="text-2xl lg:text-4xl mt-7 lg:mt-9 lg:text-left">MUSTIKA BUANA SARI</h1>
             <p className="lg:text-xl lg:mt-5 max-w-xs mt-1">Sanggar seni dan kreator dakwah wayang golek oleh Hazir Lukman Muharom</p>
-            <a href="#unggulan" className="bg-gold-500 hidden lg:block mt-14 px-6 py-2 rounded-lg">
+            <a href="#unggulan" className="bg-gold-500 text-dark hidden lg:block mt-14 px-6 py-2 rounded-lg transition-colors hover:bg-gold-300">
               Selengkapnya
             </a>
           </div>
           <div className="md:flex-1  flex">
-            <img src={hero} alt="" className="w-[260px] lg:w-[400px] mx-auto" />
+            <img src={hero} alt="" className="w-[260px] lg:w-[400px] mx-auto transition duration-500 hover:scale-110" />
             <SosmedSide />
           </div>
           {/* LINKS SIDE */}

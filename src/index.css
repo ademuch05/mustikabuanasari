@@ -10,7 +10,12 @@
 
   /* COLORS */
   --color-dark: #252525;
+
+  --color-gold-300: #e6cc84;
+  --color-gold-400: #dbb95e;
   --color-gold-500: #d6b15d;
+  --color-gold-600: #b89545;
+  --color-gold-700: #947437;
 }
 
 @layer base {

@@ -1,11 +1,13 @@
 import { FaInstagram, FaTiktok, FaWhatsapp, FaYoutube, FaFacebookF, FaMapMarkedAlt } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { RiInstagramFill } from "react-icons/ri";
 
 export const SOSMED = [
   {
     name: "Instagram",
     username: "mustikabuanasari",
     link: "https://www.instagram.com/mustikabuanasari",
-    logo: <FaInstagram />,
+    logo: <RiInstagramFill />,
   },
   {
     name: "Tiktok",
@@ -23,7 +25,7 @@ export const SOSMED = [
     name: "WhatsApp",
     username: "+6289524823363",
     link: "https://wa.me/+6289524823363",
-    logo: <FaWhatsapp />,
+    logo: <IoLogoWhatsapp />,
   },
   {
     name: "Youtube",

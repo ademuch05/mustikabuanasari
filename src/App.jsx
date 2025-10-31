@@ -29,7 +29,7 @@ function App() {
 
       // tambahkan delay kecil supaya konten muncul smooth
       setTimeout(() => setVisible(true), 100);
-    }, 1000); // durasi loader
+    }, 2000); // durasi loader
 
     return () => clearTimeout(timer);
   }, []);

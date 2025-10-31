@@ -10,7 +10,7 @@ const Galeri = () => {
     AOS.init({
       duration: 1000, // durasi animasi (ms)
       once: true, // animasi hanya jalan sekali
-      offset: 50, // jarak sebelum muncul
+      offset: 100, // jarak sebelum muncul
     });
   }, []);
 

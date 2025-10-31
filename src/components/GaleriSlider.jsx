@@ -1,6 +1,18 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const GaleriSlider = ({ data, className }) => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // durasi animasi (ms)
+      once: true, // animasi hanya jalan sekali
+      offset: 0, // jarak sebelum muncul
+    });
+  }, []);
+
   return (
-    <div className={`w-full overflow-hidden ${className}`}>
+    <div className={`w-full overflow-hidden ${className}`} data-aos="fade-up">
       <div className="flex flex-nowrap overflow-auto lg:overflow-x-hidden lg:w-full gap-6 py-3">
         {data.map((item, index) => (
           <div

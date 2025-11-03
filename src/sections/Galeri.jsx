@@ -21,7 +21,7 @@ const Galeri = () => {
         <div className="mt-7 md:mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3  ">
           {PAGINGGALERI.map((data, index) => (
             <div className="rounded-xl overflow-hidden group transition-all duration-500 hover:scale-105 border-2 border-gold-600 cursor-pointer" key={index} data-aos="fade-up">
-              <img src={data.photo} alt="" className="aspect-3/2 object-cover group-hover:scale-110 transition-discrete duration-500" />
+              <img src={data.photo} alt="" className="aspect-3/2 object-cover group-hover:scale-110 transition-all duration-500" />
             </div>
           ))}
         </div>

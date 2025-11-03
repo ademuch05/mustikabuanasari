@@ -76,9 +76,15 @@ export const UNGGULAN = [
   },
 ];
 
-import galeri1 from "./landing/galeri/galeri1.png";
-import galeri2 from "./landing/galeri/galeri2.png";
+import galeri1 from "./landing/galeri/galeri1.jpeg";
+import galeri2 from "./landing/galeri/galeri2.jpeg";
 import galeri3 from "./landing/galeri/galeri3.jpeg";
+import galeri4 from "./landing/galeri/galeri4.jpeg";
+import galeri5 from "./landing/galeri/galeri5.jpeg";
+import galeri6 from "./landing/galeri/galeri6.jpeg";
+import galeri7 from "./landing/galeri/galeri7.jpeg";
+import galeri8 from "./landing/galeri/galeri8.jpeg";
+import galeri9 from "./landing/galeri/galeri9.jpeg";
 export const GALERI = [
   {
     title: "",
@@ -98,32 +104,32 @@ export const GALERI = [
   {
     title: "",
     caption: "",
-    photo: galeri1,
+    photo: galeri4,
   },
   {
     title: "",
     caption: "",
-    photo: galeri2,
+    photo: galeri5,
   },
   {
     title: "",
     caption: "",
-    photo: galeri3,
+    photo: galeri6,
   },
   {
     title: "",
     caption: "",
-    photo: galeri1,
+    photo: galeri7,
   },
   {
     title: "",
     caption: "",
-    photo: galeri2,
+    photo: galeri8,
   },
   {
     title: "",
     caption: "",
-    photo: galeri3,
+    photo: galeri9,
   },
 ];
 
